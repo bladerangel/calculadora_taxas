@@ -11,6 +11,9 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Calculadora Taxas',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
       home: HomeScreen(),
     );
   }
