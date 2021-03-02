@@ -14,7 +14,6 @@ class _HomeScreenState extends State<HomeScreen> {
       MoneyMaskedTextController(leftSymbol: 'R\$ ');
 
   final _maquina = Maquina(
-    valorTransacao: 200,
     taxaDebito: 1.48,
     taxasCredito: [
       2.96,
